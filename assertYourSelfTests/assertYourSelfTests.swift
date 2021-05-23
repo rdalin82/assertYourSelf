@@ -14,6 +14,11 @@ class assertYourSelfTests: XCTestCase {
         XCTAssertEqual(actual, "actual")
     }
 
+    func test_withMessage() {
+        let actual = "actual"
+        XCTAssertEqual(actual, "actual", "expected 'actual for \(actual)")
+    }
+
     func test_floatingPointFixed() {
         let result = 0.1 + 0.2
         XCTAssertEqual(result, 0.3, accuracy: 0.001)
