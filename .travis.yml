@@ -1,3 +1,4 @@
+os: osx
 language: swift
 osx_image: xcode12.4
 xcode_project: assertYourSelf.xcodeproj 
