@@ -15,6 +15,7 @@
 		1F4B73B9265AEE1E00D26C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4B73B7265AEE1E00D26C19 /* LaunchScreen.storyboard */; };
 		1F4B73C4265AEE1F00D26C19 /* assertYourSelfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B73C3265AEE1F00D26C19 /* assertYourSelfTests.swift */; };
 		1F4B73CF265AEE1F00D26C19 /* assertYourSelfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4B73CE265AEE1F00D26C19 /* assertYourSelfUITests.swift */; };
+		1F4B73E0265AF2B000D26C19 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1F4B73DF265AF2B000D26C19 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1F4B73CA265AEE1F00D26C19 /* assertYourSelfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = assertYourSelfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4B73CE265AEE1F00D26C19 /* assertYourSelfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = assertYourSelfUITests.swift; sourceTree = "<group>"; };
 		1F4B73D0265AEE1F00D26C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4B73DF265AF2B000D26C19 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		1F4B73A0265AEE1B00D26C19 = {
 			isa = PBXGroup;
 			children = (
+				1F4B73DF265AF2B000D26C19 /* .travis.yml */,
 				1F4B73AB265AEE1B00D26C19 /* assertYourSelf */,
 				1F4B73C2265AEE1F00D26C19 /* assertYourSelfTests */,
 				1F4B73CD265AEE1F00D26C19 /* assertYourSelfUITests */,
@@ -233,6 +236,7 @@
 			files = (
 				1F4B73B9265AEE1E00D26C19 /* LaunchScreen.storyboard in Resources */,
 				1F4B73B6265AEE1E00D26C19 /* Assets.xcassets in Resources */,
+				1F4B73E0265AF2B000D26C19 /* .travis.yml in Resources */,
 				1F4B73B4265AEE1B00D26C19 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
