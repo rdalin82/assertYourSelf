@@ -1,6 +1,5 @@
-os: osx
 language: swift
 osx_image: xcode12.4
 xcode_project: assertYourSelf.xcodeproj 
 xcode_scheme: assertYourSelf
-xcode_sdk: iphonesimulator14.4
+script: xcodebuild clean build test -project assertYourSelf.xcodeproj -scheme assertYourSelf -sdk iphonesimulator 
