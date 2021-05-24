@@ -23,4 +23,8 @@ class assertYourSelfTests: XCTestCase {
         let result = 0.1 + 0.2
         XCTAssertEqual(result, 0.3, accuracy: 0.001)
     }
+
+    func test_fail() {
+        XCTFail()
+    }
 }
